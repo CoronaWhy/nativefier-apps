@@ -1,0 +1,22 @@
+{
+  "name": "nativefier-apps",
+  "version": "1.0.0",
+  "description": "create desktop apps from webapps",
+  "main": "index.js",
+  "scripts": {
+    "GCP": "npx nativefier -n GCP console.cloud.google.com apps/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoronaWhy/nativefier-apps.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoronaWhy/nativefier-apps/issues"
+  },
+  "homepage": "https://github.com/CoronaWhy/nativefier-apps#readme",
+  "dependencies": {
+    "nativefier": "^10.1.0"
+  }
+}
