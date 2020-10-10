@@ -4,7 +4,9 @@
   "description": "create desktop apps from webapps",
   "main": "index.js",
   "scripts": {
-    "GCP": "npx nativefier -n GCP console.cloud.google.com apps/"
+    "lrt-demo": "npx nativefier -n CoronaWhy -f 'https://app.powerbi.com/view?r=eyJrIjoiMDMyMzFiOTMtZDcyMi00MmI2LTljMjItYWVhMWYxYjU3ZjA2IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection3c4d1fd89723f6341731' apps/",
+    "GCP": "npx nativefier -n GCP https://console.cloud.google.com apps/",
+    "AWS": "npx nativefier -n AWS https://console.aws.amazon.com apps/"
   },
   "repository": {
     "type": "git",
