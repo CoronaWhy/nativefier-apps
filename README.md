@@ -1,13 +1,18 @@
 # nativefier-apps
 create nativefier desktop apps
 
+### Prerequisite 
+```
+# prerequisite, do only once 
+npm install
+```
+it would create `node_modules` folder where [nativefier](https://www.npmjs.com/package/nativefier) woudl be cached
+
 ### Example 1
 
 Building a desktop app for Google Cloud Console
 
 ```
-# prerequisite, do only very first
-npm install
 # run the script "GCP" from package.json
 npm run GCP
 ```
