@@ -13,3 +13,11 @@ npm run GCP
 ```
 
 In the directory "apps" you will find "GCP-<smth>" folder that would contain an electron app for GCP console
+
+### Building desktop electron app for Literature review demo
+
+```
+npm run lrt-demo
+```
+
+check the `apps/` for `CoronaWhy-<smth>` folder
